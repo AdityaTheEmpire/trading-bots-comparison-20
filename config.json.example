@@ -1,0 +1,27 @@
+{
+  "delta_exchange": {
+    "api_key": "YOUR_API_KEY_HERE",
+    "api_secret": "YOUR_API_SECRET_HERE",
+    "testnet": true
+  },
+  "backtest_settings": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-12-31",
+    "initial_capital": 10000,
+    "symbols": ["BTCUSDT", "ETHUSDT", "BNBUSDT"],
+    "timeframe": "1h"
+  },
+  "bots": {
+    "enabled": [
+      "freqtrade", "jesse", "ccxt", "backtrader", "quantconnect",
+      "zipline", "vectorbt", "talib", "pyalgotrade", "catalyst",
+      "rsi_bot", "macd_bot", "bollinger_bot", "ma_crossover_bot",
+      "mean_reversion_bot", "momentum_bot", "breakout_bot",
+      "grid_trading_bot", "arbitrage_bot", "market_making_bot"
+    ]
+  },
+  "performance_metrics": {
+    "risk_free_rate": 0.02,
+    "benchmark_symbol": "BTCUSDT"
+  }
+}
