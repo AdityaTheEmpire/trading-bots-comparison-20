@@ -41,12 +41,10 @@ htmlcov/
 # Data and Results
 data/
 results/
+reports/
 *.csv
 *.json
 !config.json.example
-reports/*.html
-reports/*.png
-reports/*.pdf
 
 # Logs
 *.log
